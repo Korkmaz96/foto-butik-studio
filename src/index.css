@@ -161,7 +161,7 @@
 
   /* Cards */
   .service-card {
-    @apply relative overflow-hidden group cursor-pointer;
+    @apply relative overflow-hidden cursor-pointer;
     transition: all 0.4s ease;
   }
 
