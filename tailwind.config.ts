@@ -13,7 +13,17 @@ export default {
       },
     },
     extend: {
-      colors: {
+        fontFamily: {
+          display: ["Playfair Display", "serif"],
+          body: ["Inter", "sans-serif"],
+        },
+        colors: {
+          sand: "hsl(var(--sand))",
+          "sand-light": "hsl(var(--sand-light))",
+          "sand-dark": "hsl(var(--sand-dark))",
+          charcoal: "hsl(var(--charcoal))",
+          "charcoal-light": "hsl(var(--charcoal-light))",
+          "warm-gray": "hsl(var(--warm-gray))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
