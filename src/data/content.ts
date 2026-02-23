@@ -42,7 +42,7 @@ export const prices = {
       id: "epassbild",
       title: "ePassbild (QR-Code)",
       description: "Digitales Passbild mit QR-Code + 4 gedruckte Fotos nach aktueller biometrischer Norm",
-      price: "?? €",
+      price: "-- €",
       features: [
         "QR-Code für digitale Behördeneinreichung",
         "4 gedruckte Passbilder inklusive",
