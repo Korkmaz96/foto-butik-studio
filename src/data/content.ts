@@ -55,7 +55,7 @@ export const prices = {
       id: "sonderformat",
       title: "Passbilder Sondermaß",
       description: "Visafotos, Führerscheinfotos & internationale Sonderformate",
-      price: "25,00 €",
+      price: "-- €",
       features: [
         "Alle internationalen Formate",
         "Sofortentwicklung",
@@ -71,7 +71,7 @@ export const prices = {
       id: "bewerbung-basis",
       title: "Bewerbungsfoto",
       description: "Professionelles Shooting mit persönlicher Beratung",
-      price: "ab 89 €",
+      price: "ab -- €",
       features: [
         "Ca. 25–30 Aufnahmen",
         "Persönliche Styling-Beratung",
@@ -85,7 +85,7 @@ export const prices = {
       id: "bewerbung-premium",
       title: "Bewerbungsfoto Premium",
       description: "Komplettpaket mit Prints und erweiterten Optionen",
-      price: "ab 129 €",
+      price: "ab -- €",
       features: [
         "Ca. 25–30 Aufnahmen",
         "Persönliche Styling-Beratung",
@@ -104,7 +104,7 @@ export const prices = {
       id: "portrait-einzel",
       title: "Portrait Einzel",
       description: "Klassisches Einzel-Portrait im Studio",
-      price: "ab 90 €",
+      price: "ab -- €",
       features: [
         "Aufnahmepreis",
         "Ca. 20–30 Aufnahmen",
@@ -119,7 +119,7 @@ export const prices = {
       id: "portrait-familie",
       title: "Familie & Kinder",
       description: "Familienshootings im Studio – entspannt und herzlich",
-      price: "ab 120 €",
+      price: "ab -- €",
       features: [
         "Aufnahmepreis",
         "Alle Familienmitglieder",
@@ -134,7 +134,7 @@ export const prices = {
       id: "portrait-schwanger",
       title: "Schwangerschaft",
       description: "Einfühlsame Schwangerschaftsfotos",
-      price: "ab 120 €",
+      price: "ab -- €",
       features: [
         "Entspannte Atmosphäre",
         "Verschiedene Posen & Stile",
