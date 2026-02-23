@@ -8,7 +8,8 @@ export const studio = {
   owner: "Alexander Schmid-Paetzold",
   tagline: "Ihr Fotostudio in Stuttgart-Möhringen",
   claim: "Bilder, die bleiben.",
-  claimSub: "Passbilder, Bewerbungsfotos, Portraits & Einrahmungen nach Maß – seit Jahren vertraut in Stuttgart-Möhringen.",
+  claimSub:
+    "Passbilder, Bewerbungsfotos, Portraits & Einrahmungen nach Maß – seit Jahren vertraut in Stuttgart-Möhringen.",
   address: "Hechinger Straße 5, 70567 Stuttgart-Möhringen",
   phone: "0711 / 71 28 28",
   phoneHref: "tel:+4971171 2828",
@@ -41,7 +42,7 @@ export const prices = {
       id: "epassbild",
       title: "ePassbild (QR-Code)",
       description: "Digitales Passbild mit QR-Code + 4 gedruckte Fotos nach aktueller biometrischer Norm",
-      price: "24,50 €",
+      price: "?? €",
       features: [
         "QR-Code für digitale Behördeneinreichung",
         "4 gedruckte Passbilder inklusive",
@@ -343,37 +344,45 @@ export const portfolioImages = [
 export const seoMeta = {
   home: {
     title: "foto-butik Stuttgart-Möhringen | Passbilder, Bewerbungsfotos & Portraits",
-    description: "Ihr professionelles Fotostudio in Stuttgart-Möhringen. Biometrische Passbilder sofort, ePassbild QR-Code, Bewerbungsfotos, Portraits & Einrahmungen. ☎ 0711/71 28 28",
-    keywords: "Fotostudio Stuttgart Möhringen, Passbilder Stuttgart, Bewerbungsfotos Stuttgart, Portraitfoto Stuttgart, ePassbild QR-Code, Einrahmung Stuttgart",
+    description:
+      "Ihr professionelles Fotostudio in Stuttgart-Möhringen. Biometrische Passbilder sofort, ePassbild QR-Code, Bewerbungsfotos, Portraits & Einrahmungen. ☎ 0711/71 28 28",
+    keywords:
+      "Fotostudio Stuttgart Möhringen, Passbilder Stuttgart, Bewerbungsfotos Stuttgart, Portraitfoto Stuttgart, ePassbild QR-Code, Einrahmung Stuttgart",
   },
   passbilder: {
     title: "Passbilder & ePassbild Stuttgart-Möhringen | foto-butik",
-    description: "Biometrische Passbilder sofort zum Mitnehmen. ePassbild mit QR-Code, Visafotos & Sonderformate in Stuttgart-Möhringen. ☎ 0711/71 28 28",
+    description:
+      "Biometrische Passbilder sofort zum Mitnehmen. ePassbild mit QR-Code, Visafotos & Sonderformate in Stuttgart-Möhringen. ☎ 0711/71 28 28",
     keywords: "Passbilder Stuttgart, biometrisches Passbild, ePassbild QR Stuttgart, Visafoto Stuttgart, Möhringen",
   },
   bewerbungsfotos: {
     title: "Bewerbungsfotos Stuttgart | foto-butik Möhringen",
-    description: "Professionelle Bewerbungsfotos in Stuttgart-Möhringen. Persönliche Beratung, feine Retusche, sofort einsatzbereit. ☎ 0711/71 28 28",
+    description:
+      "Professionelle Bewerbungsfotos in Stuttgart-Möhringen. Persönliche Beratung, feine Retusche, sofort einsatzbereit. ☎ 0711/71 28 28",
     keywords: "Bewerbungsfotos Stuttgart, Bewerbungsfoto professionell, Business Portrait Stuttgart, Möhringen",
   },
   portrait: {
     title: "Portrait & Familienfoto Stuttgart | foto-butik Möhringen",
-    description: "Klassische Portraits, Familienfotos & Kinderfotos in Stuttgart-Möhringen. Professionell, herzlich, unvergesslich. ☎ 0711/71 28 28",
+    description:
+      "Klassische Portraits, Familienfotos & Kinderfotos in Stuttgart-Möhringen. Professionell, herzlich, unvergesslich. ☎ 0711/71 28 28",
     keywords: "Portrait Stuttgart, Familienfoto Stuttgart, Kinderfoto Stuttgart, Portraitfoto Möhringen",
   },
   rahmen: {
     title: "Bilderrahmen & Einrahmung Stuttgart | foto-butik Möhringen",
-    description: "Maßgefertigte Bilderrahmen, Passepartouts, UV-Schutzglas & Leinwandbespannung in Stuttgart-Möhringen. ☎ 0711/71 28 28",
+    description:
+      "Maßgefertigte Bilderrahmen, Passepartouts, UV-Schutzglas & Leinwandbespannung in Stuttgart-Möhringen. ☎ 0711/71 28 28",
     keywords: "Einrahmung Stuttgart, Bilderrahmen Möhringen, Passepartout Stuttgart, UV-Schutzglas Stuttgart",
   },
   studio: {
     title: "Über uns | foto-butik Stuttgart-Möhringen",
-    description: "Ihr Vertrauensstudio in Stuttgart-Möhringen. Alexander Schmid-Paetzold – professionelle Fotografie mit Leidenschaft.",
+    description:
+      "Ihr Vertrauensstudio in Stuttgart-Möhringen. Alexander Schmid-Paetzold – professionelle Fotografie mit Leidenschaft.",
     keywords: "Fotostudio Stuttgart, Alexander Schmid-Paetzold, foto-butik Möhringen",
   },
   kontakt: {
     title: "Kontakt & Termin | foto-butik Stuttgart-Möhringen",
-    description: "Termin vereinbaren, Anfahrt planen – foto-butik in der Hechinger Straße 5, 70567 Stuttgart-Möhringen. ☎ 0711/71 28 28",
+    description:
+      "Termin vereinbaren, Anfahrt planen – foto-butik in der Hechinger Straße 5, 70567 Stuttgart-Möhringen. ☎ 0711/71 28 28",
     keywords: "Kontakt Fotostudio Stuttgart, Termin Passbilder Stuttgart, foto-butik Anfahrt",
   },
 };
