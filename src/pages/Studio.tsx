@@ -42,12 +42,8 @@ const Studio = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/85 to-primary/20" />
         <div className="relative z-10 container-studio px-4 md:px-8 pb-12 fade-up">
-          <p className="text-[11px] tracking-[0.25em] uppercase text-accent font-medium mb-3">
-            Über uns
-          </p>
-          <h1 className="font-display text-4xl md:text-6xl font-semibold text-primary-foreground">
-            Das Studio
-          </h1>
+          <p className="text-[11px] tracking-[0.25em] uppercase text-accent font-medium mb-3">Über uns</p>
+          <h1 className="font-display text-4xl md:text-6xl font-semibold text-primary-foreground">Das Studio</h1>
         </div>
       </div>
 
@@ -55,28 +51,24 @@ const Studio = () => {
       <section className="section-padding">
         <div className="container-studio grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[11px] tracking-[0.25em] uppercase text-accent font-medium mb-4">
-              Ihr Fotostudio
-            </p>
+            <p className="text-[11px] tracking-[0.25em] uppercase text-accent font-medium mb-4">Ihr Fotostudio</p>
             <h2 className="font-display text-3xl md:text-4xl font-semibold mb-6">
               foto-butik – <br />
               <em>Fotografie mit Persönlichkeit.</em>
             </h2>
             <span className="divider-accent-left" />
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Willkommen bei foto-butik in Stuttgart-Möhringen. Inhaber{" "}
-              <strong>{studio.owner}</strong> führt das Studio mit Leidenschaft
-              und langjähriger Erfahrung in der professionellen Fotografie.
+              Willkommen bei foto-butik in Stuttgart-Möhringen. Inhaber <strong>{studio.owner}</strong> führt das Studio
+              mit Leidenschaft und langjähriger Erfahrung in der professionellen Fotografie.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Unser Schwerpunkt liegt auf biometrischen Passbildern, professionellen
-              Bewerbungsfotos, Portraits sowie der handwerklichen Einrahmung von
-              Kunstdrucken und Fotos. Dabei stehen Qualität und Ihr persönliches
+              Unser Schwerpunkt liegt auf professionellen Bewerbungsfotos, Portraits, biometrischen Passbildern sowie
+              der handwerklichen Einrahmung von Kunstdrucken und Fotos. Dabei stehen Qualität und Ihr persönliches
               Wohlbefinden im Mittelpunkt.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Wir freuen uns auf Ihren Besuch in der Hechinger Straße – ob mit oder
-              ohne Termin. Kommen Sie einfach vorbei.
+              Wir freuen uns auf Ihren Besuch in der Hechinger Straße – ob mit oder ohne Termin. Kommen Sie einfach
+              vorbei.
             </p>
             <Link to="/kontakt" className="btn-primary">
               Zum Kontakt
@@ -109,12 +101,8 @@ const Studio = () => {
                 key={f.label}
                 className={`py-10 px-6 text-center ${i < 3 ? "border-r border-primary-foreground/10" : ""}`}
               >
-                <p className="font-display text-4xl font-semibold text-primary-foreground mb-2">
-                  {f.value}
-                </p>
-                <p className="text-[11px] tracking-[0.2em] uppercase text-accent font-medium">
-                  {f.label}
-                </p>
+                <p className="font-display text-4xl font-semibold text-primary-foreground mb-2">{f.value}</p>
+                <p className="text-[11px] tracking-[0.2em] uppercase text-accent font-medium">{f.label}</p>
               </div>
             ))}
           </div>
